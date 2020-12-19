@@ -10,7 +10,8 @@ numeros = ["",""] #STRING CONTENEDOR DE LA OPERACIÓN
 indiceNumero = 0
 labelOperacion = "" #LABEL EN EL QUE SE PONE LA OPERACIÓN
 Operacion = ""
-urlLayout = "C:/Users/famia/Desktop/Stuff/CODING/PYTHON/Proyectos/Tk/Calc-ImgTk/Image/"
+urlLayout = "C" + __file__[1:].replace("main.py","") + "/Image/"
+#"C:/Users/famia/Desktop/Stuff/CODING/PYTHON/Proyectos/Tk/Calc-ImgTk/Image/"
 ##VENTANA##
 ventana = Tk()
 ventana.title("Calculadora++")
