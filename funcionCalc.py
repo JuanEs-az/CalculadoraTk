@@ -27,5 +27,5 @@ def EndWith3Div(string,character):
         if string.endswith(character*n) and not DebePasar:
             flag = True
     return flag
-
+    
 
